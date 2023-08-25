@@ -113,22 +113,26 @@ $font-families: (
 
 /// Fonts - Font Sizes
 $font-sizes: (
-  // Step -2: 12.50px → 10.00px
-  "200": clamp(0.63rem, calc(0.84rem + -0.27vw), 0.78rem),
-  // Step -1: 15.00px → 14.14px
-  "300": clamp(0.88rem, calc(0.96rem + -0.09vw), 0.94rem),
+  // Step -4: 0
+  "0": 0,
+  // Step -3: 10.42px → 10.24px
+  "100": clamp(0.64rem, calc(0.66rem + -0.02vw), 0.65rem),
+  // Step -2: 12.50px → 12.80px
+  "200": clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem),
+  // Step -1: 15.00px → 16.00px
+  "300": clamp(0.94rem, calc(0.92rem + 0.11vw), 1rem),
   // Step 0: 18.00px → 20.00px
   "400": clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem),
-  // Step 1: 21.60px → 28.28px
-  "500": clamp(1.35rem, calc(1.2rem + 0.73vw), 1.77rem),
-  // Step 2: 25.92px → 39.99px
-  "600": clamp(1.62rem, calc(1.31rem + 1.53vw), 2.5rem),
-  // Step 3: 31.10px → 56.54px
-  "700": clamp(1.94rem, calc(1.39rem + 2.77vw), 3.53rem),
-  // Step 4: 37.32px → 79.95px
-  "800": clamp(2.33rem, calc(1.41rem + 4.63vw), 5rem),
-  // Step 5: 44.79px → 113.05px
-  "900": clamp(2.8rem, calc(1.32rem + 7.42vw), 7.07rem)
+  // Step 1: 21.60px → 25.00px
+  "500": clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem),
+  // Step 2: 25.92px → 31.25px
+  "600": clamp(1.62rem, calc(1.5rem + 0.58vw), 1.95rem),
+  // Step 3: 31.10px → 39.06px
+  "700": clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem),
+  // Step 4: 37.32px → 48.83px
+  "800": clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem),
+  // Step 5: 44.79px → 61.04px
+  "900": clamp(2.8rem, calc(2.45rem + 1.77vw), 3.82rem)
 );
 
 /// Fonts - Font Weights
